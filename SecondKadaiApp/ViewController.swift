@@ -21,6 +21,8 @@ class ViewController: UIViewController {
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
         }
 
-
+    @IBAction func exit(_ sender: Any) {
+    }
+    
 }
 

@@ -15,7 +15,7 @@ class ResultViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        label.text = "こんにちは\(str)さん"
+        label.text = "こんにちは、\(str)さん"
     }
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
         }

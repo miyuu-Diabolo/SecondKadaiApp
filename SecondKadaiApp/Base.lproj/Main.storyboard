@@ -22,8 +22,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2X-ib-91x">
-                                <rect key="frame" x="144.33333333333334" y="619" width="104.33333333333334" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2X-ib-91x">
+                                <rect key="frame" x="144.33333333333334" y="414" width="104.33333333333334" height="47.666666666666686"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="28"/>
@@ -32,25 +32,28 @@
                                     <segue destination="at0-U1-kUt" kind="show" id="88F-VP-7TG"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="日本　太郎" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="urF-ua-IsQ">
-                                <rect key="frame" x="100" y="371" width="193" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="日本　太郎" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="urF-ua-IsQ">
+                                <rect key="frame" x="0.0" y="280" width="393" height="34"/>
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="exit:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="h5M-pe-VSY"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="U2X-ib-91x" firstAttribute="top" secondItem="urF-ua-IsQ" secondAttribute="bottom" constant="100" id="0Rf-eD-oWG"/>
-                            <constraint firstItem="urF-ua-IsQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="4d7-2p-K4Q"/>
-                            <constraint firstItem="U2X-ib-91x" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="51D-Ef-9Lj"/>
-                            <constraint firstItem="wyO-AF-PwW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="VKC-O2-BoF"/>
-                            <constraint firstItem="wyO-AF-PwW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hVU-Fk-Q16"/>
-                            <constraint firstItem="urF-ua-IsQ" firstAttribute="top" secondItem="wyO-AF-PwW" secondAttribute="bottom" constant="100" id="hjj-cK-fbO"/>
-                            <constraint firstItem="urF-ua-IsQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mSq-sR-izF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="urF-ua-IsQ" secondAttribute="trailing" constant="100" id="q8m-EP-4YO"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="U2X-ib-91x" secondAttribute="bottom" constant="100" id="rl1-yM-RKf"/>
+                            <constraint firstItem="U2X-ib-91x" firstAttribute="top" secondItem="urF-ua-IsQ" secondAttribute="bottom" constant="100" id="9Aq-kG-WKt"/>
+                            <constraint firstItem="U2X-ib-91x" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DlA-HY-UaY"/>
+                            <constraint firstItem="wyO-AF-PwW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GYc-5g-x1C"/>
+                            <constraint firstItem="urF-ua-IsQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KQq-3H-kun"/>
+                            <constraint firstItem="wyO-AF-PwW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="dKD-Cl-3bY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="urF-ua-IsQ" secondAttribute="trailing" id="f27-nx-6Fp"/>
+                            <constraint firstItem="urF-ua-IsQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iHo-QK-3GT"/>
+                            <constraint firstItem="urF-ua-IsQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="k79-As-JIC"/>
+                            <constraint firstItem="urF-ua-IsQ" firstAttribute="top" secondItem="wyO-AF-PwW" secondAttribute="bottom" constant="100" id="oT5-iI-JMH"/>
                         </constraints>
                     </view>
                     <connections>
@@ -59,7 +62,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="-27"/>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="mh8-FC-FqL">
@@ -76,7 +79,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHl-nj-GU8">
-                                <rect key="frame" x="167.33333333333334" y="280" width="58.666666666666657" height="403"/>
+                                <rect key="frame" x="167.33333333333334" y="280" width="58.666666666666657" height="34.333333333333314"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="戻る"/>
                                 <connections>
@@ -87,11 +90,10 @@
                         <viewLayoutGuide key="safeArea" id="vVt-sy-6dw"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ELO-wx-Z0b" firstAttribute="top" secondItem="vVt-sy-6dw" secondAttribute="top" constant="100" id="4VZ-6o-w2S"/>
-                            <constraint firstItem="ELO-wx-Z0b" firstAttribute="centerX" secondItem="850-i2-ZTq" secondAttribute="centerX" id="9bU-Ly-cje"/>
-                            <constraint firstItem="AHl-nj-GU8" firstAttribute="top" secondItem="ELO-wx-Z0b" secondAttribute="bottom" constant="100" id="drX-sB-kJB"/>
-                            <constraint firstItem="vVt-sy-6dw" firstAttribute="bottom" secondItem="AHl-nj-GU8" secondAttribute="bottom" constant="100" id="gJL-VQ-Y0W"/>
-                            <constraint firstItem="AHl-nj-GU8" firstAttribute="centerX" secondItem="850-i2-ZTq" secondAttribute="centerX" id="ihb-XG-quf"/>
+                            <constraint firstItem="AHl-nj-GU8" firstAttribute="top" secondItem="ELO-wx-Z0b" secondAttribute="bottom" constant="100" id="3kQ-sA-qur"/>
+                            <constraint firstItem="AHl-nj-GU8" firstAttribute="centerX" secondItem="850-i2-ZTq" secondAttribute="centerX" id="4V6-u5-WjN"/>
+                            <constraint firstItem="ELO-wx-Z0b" firstAttribute="centerX" secondItem="850-i2-ZTq" secondAttribute="centerX" id="cab-SF-tdX"/>
+                            <constraint firstItem="ELO-wx-Z0b" firstAttribute="top" secondItem="vVt-sy-6dw" secondAttribute="top" constant="100" id="e4g-oo-HB3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="27f-fd-EHA"/>
